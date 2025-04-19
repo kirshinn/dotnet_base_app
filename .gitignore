@@ -1,0 +1,47 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Rider project files
+.idea/
+*.sln.iml
+
+# VS-specific files
+.vs/
+*.user
+*.suo
+
+# NuGet
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+*.nuget.dgspec.json
+*.nuget.g.props
+*.nuget.g.targets
+*.nuget.cache
+*.packagespec.json
+
+# Rider/JetBrains specific
+*.DotSettings.user
+*.ReSharper
+*.sln.DotSettings
+*.dotCover
+
+# Logs
+*.log
+
+# Debug files
+*.pdb
+*.mdb
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Rider restore info
+*.rider.project.model.nuget.info
+*.rider.project.restore.info
+
+# User secrets (if used)
+secrets.json
