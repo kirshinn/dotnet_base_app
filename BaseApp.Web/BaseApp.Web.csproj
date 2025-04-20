@@ -6,4 +6,16 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="2.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaseApp.Application\BaseApp.Application.csproj" />
+    <ProjectReference Include="..\BaseApp.Infrastructure\BaseApp.Infrastructure.csproj" />
+  </ItemGroup>
 </Project>
